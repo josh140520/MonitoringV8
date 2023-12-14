@@ -322,7 +322,7 @@ android.allow_backup = True
 #p4a.url = https://github.com/josh140520/python-for-android.git
 
 # (str) python-for-android fork to use in case if p4a.url is not specified, defaults to upstream (kivy)
-p4a.fork = kivy
+p4a.fork = josh140520
 
 
 # (str) python-for-android branch to use, defaults to master
