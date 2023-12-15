@@ -114,7 +114,7 @@ fullscreen = 0
 #android.sdk = 20
 
 # (str) Android NDK version to use
-android.ndk = 23b
+#android.ndk = 23b
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
 #android.ndk_api = 21
@@ -322,7 +322,7 @@ android.allow_backup = True
 #p4a.url = https://github.com/josh140520/python-for-android.git
 
 # (str) python-for-android fork to use in case if p4a.url is not specified, defaults to upstream (kivy)
-p4a.fork = misl6
+p4a.fork = kivy
 
 
 # (str) python-for-android branch to use, defaults to master
