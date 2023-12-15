@@ -38,7 +38,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.9.18,hostpython3==3.9.18,kivy,pillow==9.5.0,requests,flask,xlsxwriter,statistics,,kivy.garden,cython,pyparsing,pygments,matplotlib,socket
+requirements = python3==3.9.18,hostpython3==3.9.18,kivy,pillow==9.5.0,requests,flask,xlsxwriter,statistics,,kivy.garden,cython,pyparsing,pygments,matplotlib==3.1.3
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -322,11 +322,11 @@ android.allow_backup = True
 #p4a.url = https://github.com/josh140520/python-for-android.git
 
 # (str) python-for-android fork to use in case if p4a.url is not specified, defaults to upstream (kivy)
-p4a.fork = kivy
+p4a.fork = josh140520
 
 
 # (str) python-for-android branch to use, defaults to master
-p4a.branch = develop
+p4a.branch = release-2020.03.30
 
 # (str) python-for-android specific commit to use, defaults to HEAD, must be within p4a.branch
 #p4a.commit = HEAD
